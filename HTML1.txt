@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FİTNESS</title>
+</head>
+<body>
+import cv2
+# Read the stable photo
+photo = cv2.imread('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wildlife_at_Maasai_Mara_%28Lion%29.jpg/1200px-Wildlife_at_Maasai_Mara_%28Lion%29.jpg")
+# Create a new animated photo object
+anim = cv2.VideoWriter('animation.mp4', cv2.VideoWriter_fourcc(*'mp4v'), 30, (photo.shape[1], photo.shape[0]))
+# Add the stable photo to the animated photo object
+anim.write(photo)
+# Set the duration of the animation
+anim.set(cv2.CAP_PROP_FPS, 30)
+# Set the number of frames in the animation
+anim.set(cv2.CAP_PROP_FRAME_COUNT, 100)
+# Save the animated photo
+anim.release()
+<header>
+    <h1>EVERYTİNG ABOUT FİTNESS</h1>
+	welcome to your new world</header>
+<nav>
+   <ul>
+        <li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Workout plans</a></li>
+		<li><a href="#">Dieting</a></li>
+    </ul>
+</nav>
+<section>
+   <div class="content"> Hi!Its Gözde if you wanna set up your life all over again youre at the right place at the right time.Ağırlık egzersizleri ile, belirli kas gruplarının ya da bütün kasların, tek tek ya da kas gruplarıyla beraber, aletli ya da aletsiz çalıştırılmasıyla sıkılaştırılması ve güçlendirilmesi amaçlanır. Esasen bütün sporlar dallarında fitnessta kullanılan egzersizler yer alır yahut bir spor dalına özel bir egzersiz fitnessta yer alabilir. Çünkü her spor dalında vücutta ağırlıklı kullanılan kas grupları vardır. Bu kas gruplarına kondisyon kazandırılması için yapılan egzersizlerin pek çoğu fitness egzersizleri olarak da kullanılmaktadır.
+
+Squat, bench press ve deadlift temel üç ağırlık egzersizleridir. Ağırlık idmanları bu üç ana egzersiz üzerine kurulmuştur. Bu üç ana egzersiz vücudumuzun en büyük 3 kas grubunu çalıştırmaktadır: Bacak, sırt, göğüs..
+
+Ağırlık idmanlarında önemli olan noktalar tekrar sayısı ve setler arasındaki dinlenme süresidir. Tekrar sayısı ve dinlenme süresi doğru kas gelişimini sağlar. Kasın büyümesi, sabit kalması veya yağ yakımı bu tekrar sayısı ve dinlenme süresine de bağlıdır. Ağırlık idmanları, beslenme ile desteklenerek istenilen sonuca ulaşır.[1]
+
+Ağırlık antrenmanları için pek çok farklı yöntem kullanılmaktadır. Bazı yöntemler ve eğitmenler vücudun kendi ağırlığını kullanırken bazıları salonlarda kullanılan makinelerle, daha izole bir çalışmayı tercih etmektedirler. Bu yöntemler arasında belirgin bir performans farkı bulunmamaktadır, seçim yapmak tamamen sporcunun kendi inisiyatifine ve imkanlarına kalmıştır.
+   </section>
+   <foother>CONTACT US!</footer>
+   </body>
+   </html>
